@@ -1,0 +1,51 @@
+#main {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  grid-template-row: repeat(3, 1fr);
+  grid-template-areas: "Title"
+                       "Content"
+                       "Footer";
+  font-family: Arial, sans-serif;
+}
+
+  #title{
+    #border: 1px red dashed;
+    grid-area: Title;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #img-div{
+    #border: 1px red dashed;
+    grid-area: Content;    
+    display: grid;
+    justify-items: center;
+  }
+
+    #image{
+      width: 90%;
+      max-width: 400px;
+      #border: 1px blue dashed;
+      border-radius: 5%;
+    }
+
+    #img-caption{
+      color: gray;
+      width: 90%;
+      #border: 1px green dashed; 
+      text-align: center;
+      font-size: 10px;
+    }
+
+    #tribute-info{
+      #border: 1px orange dashed;
+      font-size: 13px;
+      width: 70%;
+    }
+
+#footer{
+  grid: display;
+  justify-self: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
