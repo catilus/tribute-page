@@ -1,2 +1,2 @@
 # tribute-page
-Project part of the Responsive Web Design certification on FreeCodeCamp
+Project I of the Responsive Web Design certification on FreeCodeCamp
